@@ -20,7 +20,7 @@ This assignment contains 3 files:
 
 #### 1. Clone the Repository
 ```sh
-git clone https://github.com/KetulChhaya/
+git clone https://github.com/KetulChhaya/data-viz
 cd data-viz
 ```
 
@@ -314,8 +314,12 @@ export async function createTreemap() {
 ```
 
 ---
+## Caption:
+(Fig1. ) shows distribution of bikes on rental basis per 100,000 people across various cities. Each rectangular tile encodes a city possessing bike-sharing proportion as a quantitative attribute. The color channel further differentiate cities as a categorical attribute.
 
-## Output 
+---
+
+## Output (Fig1. )
 #### Note: This is a live rendered output using async function call (Not a Screenshot)
 ```js
 import {createTreemap} from "./components/treemap.js"
